@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  font-family: 'KoHo', sans-serif;
+  font-size: 16px;
+}
+.navbar{
+          display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    flex-direction: row;
+    font-family: 'Mate SC', serif;
+    background-color: #1b2156;
+    color: white;
+        }
+a{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'KoHo', sans-serif;
+    text-decoration: none;
+    color: #101010;
+    border: 2px solid black;
+    padding: 2px 20px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    margin: 0 10px;
+}
+a:hover{
   color: white;
+  background-color: #101010;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+  margin: 0 auto;
+  font-size: 1.5em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.link{
+  margin: 20px auto;
+}
+.content{
+  text-align: center;
+  margin-top: 18px;
+}
+p{
+  font-weight: 600;
+  margin: 8px 0;
+  font-size: 18px;
+}
+img{
+  height: 200px;
+  width: 100%;
+  object-fit: Cover;
+  border-bottom: 2px solid black;
+}
+.single_blog{
+  display: inline-block;
+  position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 auto 10px 10px;
+    width: 30%;
+}
+.blog-content{
+  display: block;
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+}
+.logo-section{
+  margin: 20px auto;
+}
+footer{
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    background-color: #1b2156;
+    color: white;
+}
+.heart{
+  color: red;
+}
+h3{
+  margin: 0;
+  padding: 20px 0 15px 0;
+}
+@media screen and (max-width:680px) {
+  img{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .blog-content{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+.single_blog{
+  width: 95%;
+  margin: 0 auto 10px;
+}
+}
+@media screen and (max-width:950px) and (min-width:681px){
+  .single_blog{
+    width: 45%;
+  } 
+}
+@media screen and (max-width:700px){
+  .link{
+    display: none;
   }
 }
