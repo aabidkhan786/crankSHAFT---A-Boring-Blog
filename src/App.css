@@ -59,7 +59,7 @@ img{
 .logo{
   width: 50px;
   height: auto;
-  margin: -10px 10px;
+  margin: -10px 5px;
 }
 .single_blog{
   display: inline-block;
@@ -106,7 +106,7 @@ h3{
     width: 40px;
   }
   h1{
-    font-size: 1.4em;
+    font-size: 1em;
   }
   .blog-content{
     display: block;
