@@ -70,7 +70,7 @@ img{
     width: 30%;
 }
 .single_blog:hover{
-  box-shadow: 5px 5px 5px #777676;
+  box-shadow: 0px 1px 5px 3px #585858bf;
 }
 .blog-content{
   display: block;
