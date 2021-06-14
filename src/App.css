@@ -56,6 +56,11 @@ img{
   object-fit: Cover;
   border-bottom: 2px solid black;
 }
+.logo{
+  width: 50px;
+  height: auto;
+  margin: -10px 10px;
+}
 .single_blog{
   display: inline-block;
   position: relative;
@@ -75,6 +80,7 @@ img{
 }
 .logo-section{
   margin: 20px auto;
+  display: flex;
 }
 footer{
     text-align: center;
@@ -93,13 +99,22 @@ h3{
   img{
     width: 100%;
   }
+  .logo-section{
+    display: flex;
+  }
+  .logo{
+    width: 40px;
+  }
+  h1{
+    font-size: 1.4em;
+  }
   .blog-content{
     display: block;
     width: 95%;
     margin: 0 auto;
 }
 .single_blog{
-  width: 95%;
+  width: 98%;
   margin: 0 auto 10px;
 }
 }
