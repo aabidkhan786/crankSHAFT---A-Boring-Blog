@@ -16,7 +16,8 @@ body{
     font-family: 'Mate SC', serif;
     background-color: #1b2156;
     color: white;
-        }
+    border-bottom: 4px solid red;
+  }
 a{
     font-size: 20px;
     font-weight: 700;
@@ -50,7 +51,7 @@ p{
   font-size: 18px;
 }
 img{
-  height: 200px;
+  height: 300px;
   width: 100%;
   object-fit: Cover;
   border-bottom: 2px solid black;
@@ -62,6 +63,9 @@ img{
     border-radius: 5px;
     margin: 0 auto 10px 10px;
     width: 30%;
+}
+.single_blog:hover{
+  box-shadow: 5px 5px 5px #777676;
 }
 .blog-content{
   display: block;
