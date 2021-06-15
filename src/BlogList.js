@@ -6,7 +6,7 @@ const BlogList = (props) => {
         <>
             {blog.map((blogs)=>(
                     <div className="single_blog">
-                        <img src={blogs.image} alt="reliance" />
+                        <img src={blogs.image} alt={blogs.title} />
                         <p>{blogs.title}</p>
                         <p>Credit : {blogs.author}</p>
                     </div>

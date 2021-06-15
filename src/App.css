@@ -128,3 +128,12 @@ h3{
     display: none;
   }
 }
+@media screen and (max-width:330px) {
+  h1{
+    font-size: 0.8em;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+}

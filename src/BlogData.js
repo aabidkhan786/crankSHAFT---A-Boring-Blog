@@ -1,5 +1,10 @@
 const blog =[
     {
+        image: "https://picsum.photos/756/856", 
+        title:'Random Image 12', 
+        author:'Lorem Picsum', 
+    },
+    {
         image: "https://picsum.photos/755/855", 
         title:'Random Image 11', 
         author:'Lorem Picsum', 
